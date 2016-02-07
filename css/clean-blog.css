@@ -23,7 +23,7 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #808;
+  color: black;
 }
 a:hover,
 a:focus {
@@ -318,21 +318,7 @@ form .row:first-child .floating-label-form-group {
   padding: 15px 25px;
   background-color: white;
   border-radius: 0;
-}
-.pager li > a:hover,
-.pager li > a:focus {
-  color: black;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
-}
-.pager .disabled > a,
-.pager .disabled > a:hover,
-.pager .disabled > a:focus,
-.pager .disabled > span {
-  color: #808080;
-  background-color: #404040;
-  cursor: not-allowed;
-}
+
 ::-moz-selection {
   color: black;
   text-shadow: none;
