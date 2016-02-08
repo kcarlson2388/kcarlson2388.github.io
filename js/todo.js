@@ -13,8 +13,8 @@ function addItem() {
   var text = window.prompt("New Suggestion");
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   $("ol").append("<li>" + text + " " + delete_link + "</li>");
-  var numItems = $("li").length-#;
-  
+  var numItems = $("ol").length;
+
 
   // Challenge: Differentiate between 1 item vs. more items
   if (numItems == 1) {
