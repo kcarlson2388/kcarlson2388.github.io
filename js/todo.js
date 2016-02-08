@@ -14,7 +14,7 @@ function addItem() {
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   $("ol").append("<li>" + text + " " + delete_link + "</li>");
   var numItems = $("li").length-#;
-  var # = number it shows -1
+  
 
   // Challenge: Differentiate between 1 item vs. more items
   if (numItems == 1) {
