@@ -12,8 +12,9 @@ $(document).ready(function() {
 function addItem() {
   var text = window.prompt("New Suggestion");
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
-  $("ol").append("<li>" + text + " " + delete_link + "</li>");
-  var numItems = $("li").length;
+  $("ol").append("<abc><br>" + text + " " + delete_link + "</abc>");
+  var numItems = $("abc").length;
+  $(".total").html(numItems + " item");
 
 
   // Challenge: Differentiate between 1 item vs. more items
@@ -32,5 +33,8 @@ function deleteItem(event) {
   console.info(event);
   // $(event.target).remove();
   $(event.target).parent().fadeOut();
+
+var numItems = $("abc").length-1;
+$(".total").html(numItems + " item");
 
 }
